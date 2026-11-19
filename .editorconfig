@@ -1,0 +1,10 @@
+root = true
+
+# UTF-8 sin BOM y LF: evita acentos rotos (mojibake) al editar desde Windows
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+indent_style = space
+indent_size = 2
+trim_trailing_whitespace = true
